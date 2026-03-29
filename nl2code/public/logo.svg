@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" /> <stop offset="100%" stop-color="#020617" /> </linearGradient>
+    
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" /> <stop offset="100%" stop-color="#3B82F6" /> </linearGradient>
+
+    <linearGradient id="braceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" /> <stop offset="100%" stop-color="#8B5CF6" /> </linearGradient>
+
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" /> <stop offset="100%" stop-color="#EC4899" /> </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="220" fill="url(#glowGrad)" />
+
+  <g stroke="url(#textGrad)" stroke-width="32" stroke-linecap="round" fill="none">
+    <path d="M 94 180 L 214 180" />
+    <path d="M 94 256 L 174 256" />
+    <path d="M 94 332 L 224 332" />
+  </g>
+
+  <path d="M 294 140 Q 254 140 254 190 Q 254 230 224 256 Q 254 282 254 322 Q 254 372 294 372" 
+        fill="none" stroke="url(#braceGrad)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+
+  <g stroke="url(#codeGrad)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 319 216 L 359 256 L 319 296" />
+    <path d="M 379 296 L 419 296" />
+  </g>
+</svg>
